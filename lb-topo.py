@@ -35,7 +35,7 @@ class MyNet( Topo ):
         self.addLink( h3, s2 )
         self.addLink( h4, s3 )
         self.addLink( s1, s2 )
-        self.addLink( s2, s3 )
+
         self.addLink( s3, s1 )
 
 
